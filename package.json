@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "opencode-mistral-image-cap",
+  "version": "0.1.0",
+  "description": "OpenCode plugin that keeps Mistral requests within the 8-image API limit.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "mistral",
+    "vision"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seofernando25/opencode-mistral-image-cap.git"
+  },
+  "homepage": "https://github.com/seofernando25/opencode-mistral-image-cap#readme",
+  "bugs": {
+    "url": "https://github.com/seofernando25/opencode-mistral-image-cap/issues"
+  },
+  "dependencies": {
+    "@opencode/plugin": "^2.1.2"
+  }
+}
